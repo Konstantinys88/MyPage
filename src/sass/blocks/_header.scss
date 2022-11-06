@@ -1,0 +1,78 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../img/3.jpg') no-repeat 50%/cover;
+    &__back {
+        position: absolute;
+        background: black;
+        opacity: .3;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        z-index: 90;
+    }
+    &__logo {
+        position: absolute;
+        top: 20px;
+        left: 25%;
+        display: flex;
+        z-index: 100;
+        img {
+            width: 40px;
+            margin-left: 10px;
+        }
+    }
+    &__list {
+        position: absolute;
+        display: flex;
+        margin: 0;
+        top: 30px;
+        right: 25%;
+        list-style: none;
+        z-index: 100;
+    }
+    &__link{
+        padding-left: 20px;
+        a {
+            font-weight: 700;
+            font-size: 16px;
+            display: block;
+            text-decoration: none;
+            color:aliceblue;
+        }
+    }
+    &__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 130%;
+            color: aliceblue;
+        }
+        h3 {
+            margin-top: 25px;
+            font-weight: 700;
+            font-size: 16px;
+            // line-height: 150%;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color:aliceblue;
+        }
+    }
+    &__arrow {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+    }
+}

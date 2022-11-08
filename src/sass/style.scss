@@ -2,8 +2,12 @@
 
 @import 'base/variables';
 
+* {
+    box-sizing: border-box; /*определяет как вычисляется общая ширина и высота элемента.*/
+}
+
 .container {
-    max-width: 1180px; 
+    max-width: 1110px; 
     margin: 0 auto;
 }
 
@@ -13,4 +17,5 @@ body {
 }
 
 @import 'blocks/header';
+@import 'blocks/portfolio';
 

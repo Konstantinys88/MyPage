@@ -7,7 +7,7 @@
     justify-content: center;
     background: url('../img/3.jpg') no-repeat 50%/cover;
     &__back {
-        position: absolute;
+        position: fixed;
         background: black;
         opacity: .3;
         top: 0;
@@ -17,7 +17,7 @@
         z-index: 90;
     }
     &__logo {
-        position: absolute;
+        position: fixed;
         top: 20px;
         left: 25%;
         display: flex;
@@ -28,7 +28,7 @@
         }
     }
     &__list {
-        position: absolute;
+        position: fixed;
         display: flex;
         margin: 0;
         top: 30px;

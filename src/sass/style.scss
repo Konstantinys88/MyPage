@@ -14,8 +14,15 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.none {
+    display: none;
 }
 
 @import 'blocks/header';
 @import 'blocks/portfolio';
+@import 'blocks/footer';
+@import 'blocks/forest';
 

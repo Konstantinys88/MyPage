@@ -1,12 +1,13 @@
 .portfolio {
     padding: 80px 0 115px 0;
+    background: $bg-color;
     &__header {
         font-style: normal;
         font-weight: 700;
         font-size: 46px;
         line-height: 130%;
         text-align: center;
-        color: #000000;
+        color: $text-color2;
         margin: 0 0 70px 0;
     }
     &__cards-wrapper {
@@ -22,17 +23,18 @@
         max-height: 375px;
         box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.5); /*Тени*/
         transition: transform 0.2s ease-in;
+        background:$bg-color;
         &:hover {
            transform: translateY(-15px); 
         }
         &_link {
             padding: 20px;
             display: block;
-            color: #000000;
+            color: $text-color2;
             text-decoration: none;
             transition: color 0.2s ease-in;
             &:hover {
-                color: rgba(39, 91, 236);
+                color: $text-color;
             }
 
         }
@@ -49,14 +51,12 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 130%;
-            // color: #000000;
         }
         p {
             margin: 0;
             font-weight: 400;
             font-size: 16px;
             line-height: 130%;
-            // color: #000000;
         }
     }
 }

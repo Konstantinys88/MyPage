@@ -8,7 +8,7 @@
     background: url('../img/3.jpg') no-repeat 50%/cover;
     &__back {
         position: fixed;
-        background: black;
+        background: $bg-color2;
         opacity: .3;
         top: 0;
         left: 0;
@@ -43,7 +43,7 @@
             font-size: 16px;
             display: block;
             text-decoration: none;
-            color:aliceblue;
+            color:$text-color;
         }
     }
     &__title {
@@ -56,7 +56,7 @@
             font-weight: 700;
             font-size: 56px;
             line-height: 130%;
-            color: aliceblue;
+            color: $text-color;
         }
         h3 {
             margin-top: 25px;
@@ -65,7 +65,7 @@
             // line-height: 150%;
             letter-spacing: 0.2em;
             text-transform: uppercase;
-            color:aliceblue;
+            color:$text-color;
         }
     }
     &__arrow {

@@ -6,6 +6,10 @@
     box-sizing: border-box; /*определяет как вычисляется общая ширина и высота элемента.*/
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1140px; 
     margin: 0 auto;

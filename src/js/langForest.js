@@ -10,9 +10,9 @@ window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.contact').innerHTML = 'Контакты';
             document.querySelector('.lang2').innerHTML = 'ENG';
             //Main
-            document.querySelector('.project__header').innerHTML = 'Макет веб-сайта Forest-travel';
-            document.querySelector('.project__description_title').innerHTML = 'Макет многостраничного веб-сайта. Главная страница, страница с услугами, карта путешествий с формой обратной связи, страница со статьей.';
-            document.querySelector('.project__description_email').innerHTML = 'Адрес веб-сайта: <a href="#">site.com</a>';
+            document.querySelector('.project__header').innerHTML = 'Макет веб сайта Мёда';
+            document.querySelector('.project__description_title').innerHTML = 'Макет адаптивного веб сайта Мёда.';
+            document.querySelector('.project__description_email').innerHTML = 'Адрес веб-сайта: <a href="https://honey.mkvweb.ru/">Honey</a>';
             document.querySelector('.project__back').innerHTML = '← На главную страницу';
             // Footer
             document.querySelector('.footer__copyright_name').innerHTML = '© Константин Машков';
@@ -26,9 +26,9 @@ window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.contact').innerHTML = 'Contacts';
             document.querySelector('.lang2').innerHTML = 'RU';
             //Main
-            document.querySelector('.project__header').innerHTML = 'Layout of the Forest-travel website';
-            document.querySelector('.project__description_title').innerHTML = 'Layout of a multi-page website. Home, a page with services, a travel map with a feedback form, a page with an article.';
-            document.querySelector('.project__description_email').innerHTML = 'Website address: <a href="#">site.com</a>';
+            document.querySelector('.project__header').innerHTML = 'Layout of the Honey website';
+            document.querySelector('.project__description_title').innerHTML = 'Layout of an adaptive Honey website.';
+            document.querySelector('.project__description_email').innerHTML = 'Website address: <a href="https://honey.mkvweb.ru/">Honey</a>';
             document.querySelector('.project__back').innerHTML = '← GO BACK TO THE MAIN PAGE';
             // Footer
             document.querySelector('.footer__copyright_name').innerHTML = '© Konstantin Maschkov';

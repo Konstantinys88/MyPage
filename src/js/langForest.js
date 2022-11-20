@@ -1,29 +1,19 @@
 'use strict';
 
 window.addEventListener('DOMContentLoaded', () => {
-    const menu = document.querySelector('.header__list'),
-    hamburger = document.querySelector('.hamburger');
     const lang = document.querySelector('.lang');
 
-    // Всплывающее меню
-    hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('hamburger_active');
-        menu.classList.toggle('header__list_active');
-    });
-
-    // Смена языка
     lang.addEventListener('click', () => {
         let languageСhange = lang.classList.toggle('lang_active');
         if(languageСhange) {
             // Header
-            document.querySelector('.name').innerHTML = 'Константин Машков';
-            document.querySelector('.lang2').innerHTML = 'ENG';
-            document.querySelector('.home').innerHTML = 'Главная';
-            document.querySelector('.portf').innerHTML = 'Портфолио';
             document.querySelector('.contact').innerHTML = 'Контакты';
-            document.querySelector('.header__subtitle').innerHTML = 'Верстка, создание сайтов, веб-разработка';
-            // Portfolio
-            document.querySelector('.portfolio__header').innerHTML = 'Мои работы';
+            document.querySelector('.lang2').innerHTML = 'ENG';
+            //Main
+            document.querySelector('.project__header').innerHTML = 'Макет веб-сайта Forest-travel';
+            document.querySelector('.project__description_title').innerHTML = 'Макет многостраничного веб-сайта. Главная страница, страница с услугами, карта путешествий с формой обратной связи, страница со статьей.';
+            document.querySelector('.project__description_email').innerHTML = 'Адрес веб-сайта: <a href="#">site.com</a>';
+            document.querySelector('.project__back').innerHTML = '← На главную страницу';
             // Footer
             document.querySelector('.footer__copyright_name').innerHTML = '© Константин Машков';
             document.querySelector('.footer__copyright_title').innerHTML = 'HTML-верстка и веб-разработка';
@@ -33,14 +23,13 @@ window.addEventListener('DOMContentLoaded', () => {
         }
         else {
             // Header
-            document.querySelector('.name').innerHTML = 'Konstantin Maschkov';
-            document.querySelector('.lang2').innerHTML = 'RU';
-            document.querySelector('.home').innerHTML = 'Home';
-            document.querySelector('.portf').innerHTML = 'Portfolio';
             document.querySelector('.contact').innerHTML = 'Contacts';
-            document.querySelector('.header__subtitle').innerHTML = 'Layout, Website creation, Web-development';
-            // Portfolio
-            document.querySelector('.portfolio__header').innerHTML = 'Portfolio';
+            document.querySelector('.lang2').innerHTML = 'RU';
+            //Main
+            document.querySelector('.project__header').innerHTML = 'Layout of the Forest-travel website';
+            document.querySelector('.project__description_title').innerHTML = 'Layout of a multi-page website. Home, a page with services, a travel map with a feedback form, a page with an article.';
+            document.querySelector('.project__description_email').innerHTML = 'Website address: <a href="#">site.com</a>';
+            document.querySelector('.project__back').innerHTML = '← GO BACK TO THE MAIN PAGE';
             // Footer
             document.querySelector('.footer__copyright_name').innerHTML = '© Konstantin Maschkov';
             document.querySelector('.footer__copyright_title').innerHTML = 'HTML layout and website development';
@@ -49,13 +38,4 @@ window.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.footer__contacts_title').innerHTML = 'Write to me to order or find out the cost of the layout of your project.';
         }
     });
-});
-
-
-
-
-
-
-
-
-
+});    

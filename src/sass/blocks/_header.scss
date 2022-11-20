@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url('../img/3.jpg') no-repeat 50%/cover;
+    background: url('../img/bg/night.jpg') no-repeat 50%/cover;
     &__back {
         position: fixed;
         background: $bg-color2;
@@ -104,3 +104,4 @@
 .hamburger {
     display: none;
 }
+
